@@ -1,3 +1,6 @@
+---
+license: mit
+---
 This repo contains the artifacts of a model, using a pre-trained Visual Transformer model and fine-tuning it on a custom dataset.
 
 There are significant benefits to using a pretrained model. It reduces computation costs, your carbon footprint, and allows you to use state-of-the-art models without having to train one from scratch

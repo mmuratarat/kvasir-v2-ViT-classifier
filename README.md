@@ -1,3 +1,6 @@
+---
+license: mit
+---
 This repo contains the artifacts of a model, using a pre-trained Visual Transformer model and fine-tuning it on a custom dataset.
 
 There are significant benefits to using a pretrained model. It reduces computation costs, your carbon footprint, and allows you to use state-of-the-art models without having to train one from scratch
@@ -18,9 +21,9 @@ The dataset can be download from [here](https://datasets.simula.no/kvasir/) whic
 
 The [Hugging Face transformers](https://huggingface.co/docs/transformers/index) package is a very popular Python library which provides access to the HuggingFace Hub where we can find a lot of pretrained models and pipelines for a variety of tasks in domains such as Natural Language Processing (NLP), Computer Vision (CV) or Automatic Speech Recognition (ASR).
 
-Vision Transformer-based models used in this experiment. Vision Transformer (ViT) was introduced in June 2021 by a team of researchers at Google Brain (https://arxiv.org/abs/2010.11929). 
+A Vision Transformer-based model is used in this experiment. Vision Transformer (ViT) was introduced in June 2021 by a team of researchers at Google Brain (https://arxiv.org/abs/2010.11929). 
 
-The Vision Transformer (ViT) model was proposed in An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale by Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby. It’s the first paper that successfully trains a Transformer encoder on ImageNet, attaining very good results compared to familiar convolutional architectures.
+The Vision Transformer (ViT) model was proposed in "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" by Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby. It’s the first paper that successfully trains a Transformer encoder on ImageNet, attaining very good results compared to familiar convolutional architectures.
 
 The Vision Transformer (ViT) is a transformer encoder model (BERT-like) pretrained on a large collection of images in a supervised fashion, namely ImageNet-21k, at a resolution of 224x224 pixels. Next, the model was fine-tuned on ImageNet (also referred to as ILSVRC2012), a dataset comprising 1 million images and 1,000 classes, also at resolution 224x224.
 

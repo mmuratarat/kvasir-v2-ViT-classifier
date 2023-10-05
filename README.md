@@ -24,7 +24,7 @@ The Vision Transformer (ViT) model was proposed in "An Image is Worth 16x16 Word
 
 The Vision Transformer (ViT) is a transformer encoder model (BERT-like) pretrained on a large collection of images in a supervised fashion, namely ImageNet-21k, at a resolution of 224x224 pixels. Next, the model was fine-tuned on ImageNet (also referred to as ILSVRC2012), a dataset comprising 1 million images and 1,000 classes, also at resolution 224x224.
 
-![](https://github.com/mmuratarat/turkish/blob/master/_posts/images/Screenshot%202023-10-04%20at%205.17.43%20PM.png?raw=true)
+![](https://github.com/mmuratarat/turkish/blob/master/_posts/images/vit_architecture.jpg?raw=true)
 
 In this case, we'll be using [the google/vit-base-patch16-224-in21k model](https://huggingface.co/google/vit-base-patch16-224-in21k) from Hugging Face.
 
